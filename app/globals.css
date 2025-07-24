@@ -7,6 +7,13 @@ body {
   font-family: super, sans-serif;
 }
 
+.hero-section {
+  background-image: url("/hero-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

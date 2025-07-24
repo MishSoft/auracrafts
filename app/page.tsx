@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import PopularProd from "./components/PopularProd";
+
 export default function Home() {
   return (
     <div>
-      <h1 className="font-super">გამარჯობა</h1>
+      <Hero />
+      <PopularProd />
     </div>
   );
 }
