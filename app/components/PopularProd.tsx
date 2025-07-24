@@ -182,7 +182,7 @@ export default function PopularProd() {
   }, []);
 
   return (
-    <section className="py-10 w-full  border bg-gray-50">
+    <section className="py-10 w-full ">
       <div className="flex items-center  justify-between pl-[15px] pb-[20px] pr-[15px]">
         <h2 className=" md:text-3xl text-1xl   text-gray-800">
           პოპულარული პროდუქცია
