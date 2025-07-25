@@ -12,151 +12,87 @@ import gsap from "gsap";
 const prodData = [
   {
     headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://i.etsystatic.com/8421672/r/il/78b475/6308687579/il_600x600.6308687579_t44v.jpg",
     otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=60&auto=format&fit=crop",
     ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
+    title: "ტყავის ზურგჩანთა",
+    tags: "#ზურგჩანთა, #ტყავი, #ხელნაკეთი",
     description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
-  },
-
-  {
-    headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
-    ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
-    description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
+      "მოქნილი, გამძლე და ელეგანტური ხელნაკეთი ტყავის ზურგჩანთა ყოველდღიური გამოყენებისთვის.",
+    price: 250,
   },
   {
     headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://i.etsystatic.com/57652560/r/il/0d85fb/7025925286/il_600x600.7025925286_1yge.jpg",
     otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&q=60&auto=format&fit=crop",
     ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
+    title: "ტყავის საფულე",
+    tags: "#საფულე, #ტყავი, #უნისექსი",
     description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
+      "ელეგანტური და კომპაქტური ხელნაკეთი საფულე ნატურალური ტყავით — იდეალური ყოველდღიურობაში.",
+    price: 80,
   },
-
   {
     headImage:
-      "https://images.unsplash.com/photo-1598532163257-ae3c6b2524b6?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://i.etsystatic.com/57864190/r/il/8cc831/6715775299/il_600x600.6715775299_7guo.jpg",
     otherImages: [
-      "https://images.unsplash.com/photo-1657603719375-8ffdacaac790?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-      "https://images.unsplash.com/photo-1657603738389-951c374b740c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE2fHx8ZW58MHx8fHx8",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
     ],
-    title: "შემოდგომი ელეგანტურობა",
-    tags: "#ჩანთები, #ტყავი",
+    title: "მინი ხელჩანთა ტყავისგან",
+    tags: "#ხელჩანთა, #ტყავის, #მინიმალისტური",
     description:
-      "თქვენი ყოველდღიური სტილის სრულყოფილი დამატება. დამზადებულია მაღალი ხარისხის ბუნებრივი ტყავისგან...",
-    price: 200,
+      "მინიმალისტური დიზაინის ხელნაკეთი მინი ჩანთა, იდეალურია ქალაქის სტილისთვის.",
+    price: 120,
+  },
+  {
+    headImage:
+      "https://i.etsystatic.com/21965694/c/1794/1794/761/577/il/929551/7022587261/il_600x600.7022587261_td0i.jpg",
+    otherImages: [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
+    ],
+    title: "უნისექს ჩანთა ყოველდღიური მოხმარებისთვის",
+    tags: "#უნისექსი, #ტყავი, #უნივერსალური",
+    description:
+      "ტყავისგან დამზადებული ხელნაკეთი ჩანთა, რომელიც შესაფერისია როგორც ქალებისთვის, ასევე მამაკაცებისთვის.",
+    price: 140,
+  },
+  {
+    headImage:
+      "https://i.etsystatic.com/60765854/r/il/ed9926/7015516392/il_600x600.7015516392_7obm.jpg",
+    otherImages: [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
+    ],
+    title: "ტყავის სამგზავრო ჩანთა",
+    tags: "#სამგზავრო, #ტყავი, #ხელნაკეთი",
+    description:
+      "პრაქტიკული ხელნაკეთი სამგზავრო ჩანთა მაღალი გამძლეობის ტყავით და კომფორტული ტარებისთვის.",
+    price: 180,
+  },
+  {
+    headImage:
+      "https://i.etsystatic.com/7994687/c/2098/2098/493/0/il/edbc14/4784371004/il_600x600.4784371004_ej9p.jpg",
+    otherImages: [
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600&q=60&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542068829-1115f7259450?w=600&q=60&auto=format&fit=crop",
+    ],
+    title: "ტყავის კლასიკური ჩანთა",
+    tags: "#კლასიკური, #ტყავი, #ხელნაკეთი",
+    description:
+      "კლასიკური სტილის ხელნაკეთი ჩანთა, რომელიც იდეალურია საქმიანი სტილისთვის და ყოველდღიური ტარებისთვის.",
+    price: 160,
   },
 ];
 

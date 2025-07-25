@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
+import { useAuthModal } from "@/context/AuthModalContext";
 
 const links = [
   { name: "მთავარი", href: "/" },
@@ -20,6 +21,7 @@ interface MobilenavProps {
 export default function Mobilenav({ isActive, setIsActive }: MobilenavProps) {
   const pathname = usePathname();
   const navRef = useRef<HTMLDivElement>(null);
+  const { open } = useAuthModal();
 
   // gsap animate in/out
   useEffect(() => {
@@ -72,7 +74,7 @@ export default function Mobilenav({ isActive, setIsActive }: MobilenavProps) {
             </Link>
           </li>
         ))}
-        <Button className="cursor-pointer">
+        <Button onClick={open} className="cursor-pointer">
           Sign in <User />
         </Button>
       </ul>

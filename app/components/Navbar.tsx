@@ -6,16 +6,18 @@ import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
 import Mobilenav from "./Mobilenav";
 import gsap from "gsap";
+import { useAuthModal } from "@/context/AuthModalContext";
 
 const links = [
   { name: "მთავარი", href: "/" },
-  { name: "კოლექცია/პროდუქცია", href: "/products" },
+  { name: "კოლექცია/პროდუქცია", href: "/collection" },
   { name: "კონტაქტი", href: "/contact" },
 ];
 
 export default function Navbar() {
   const [isActive, setIsActive] = useState(false);
   const pathName = usePathname();
+  const { open } = useAuthModal();
 
   // refs
   const headerRef = useRef<HTMLDivElement>(null);
@@ -69,7 +71,7 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        <Button className="hidden md:inline-flex">
+        <Button onClick={open} className="hidden md:inline-flex">
           <User />
         </Button>
       </nav>
